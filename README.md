@@ -1,4 +1,11 @@
 # MoonPlayer
+ 
+ -Added hungarian translation
+ -intel Quick sync video decode WIP (mpv already supports it)
+ -Debian packaging WIP
+
+Original description:
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcoslyk%2Fmoonplayer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcoslyk%2Fmoonplayer?ref=badge_shield)
 
 
