@@ -1,7 +1,9 @@
 # MoonPlayer
  
  -Added hungarian translation
+ 
  -intel Quick sync video decode WIP (mpv already supports it)
+ 
  -Debian packaging WIP
 
 Original description:
