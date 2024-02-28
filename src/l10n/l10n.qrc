@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/l10n">
         <file>zh_CN.qm</file>
+        <file>hu_HU.qm</file>
     </qresource>
 </RCC>
