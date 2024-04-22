@@ -166,6 +166,9 @@ MpvObject::MpvObject(QQuickItem * parent) : QQuickFramebufferObject(parent)
         case NVDEC:
             m_mpv.set_option("hwdec", "nvdec");
             break;
+        case QSV:
+            m_mpv.set_option("hwdec", "qsv");
+            break;
         default: break;
     }
 
