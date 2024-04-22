@@ -75,9 +75,11 @@ set(QML_FILES
 # Create translations
 set(TS_FILES
     l10n/zh_CN.ts
+    l10n/hu_HU.ts
 )
 set_source_files_properties(${TS_FILES} PROPERTIES OUTPUT_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/l10n)
 qt6_create_translation(QM_FILES ${SOURCE_FILES} ${QML_FILES} l10n/zh_CN.ts)
+qt6_create_translation(QM_FILES ${SOURCE_FILES} ${QML_FILES} l10n/hu_HU.ts)
 
 # Add MacOS bundle files
 add_project_meta(META_FILES_TO_INCLUDE)
