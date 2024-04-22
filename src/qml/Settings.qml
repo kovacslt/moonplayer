@@ -157,7 +157,7 @@ Item {
             Label { text: qsTr("Decode") + " (*):" }
             ComboBox {
                 id: hwdecComboBox
-                model: [ "auto", "vaapi", "vdpau", "nvdec" ]
+                model: [ "auto", "vaapi", "vdpau", "nvdec", "quicksync" ]
             }
             
             Label { text: qsTr("(*): Restart needed"); Layout.columnSpan: 2 }
